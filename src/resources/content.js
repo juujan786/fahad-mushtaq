@@ -56,12 +56,7 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: (
-    <>
-      Bridging Technical Precision with Practical Problem-Solving to create
-      Technology
-    </>
-  ),
+  headline: <>Driven by Curiosity, Powered by Problem-Solving</>,
   featured: {
     display: true,
     title: (
