@@ -56,7 +56,12 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Transforming data into seamless user experiences</>,
+  headline: (
+    <>
+      Bridging Technical Precision with Practical Problem-Solving to create
+      Technology
+    </>
+  ),
   featured: {
     display: true,
     title: (
@@ -99,10 +104,11 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for
-        transforming complex challenges into simple, elegant design solutions.
-        Her work spans digital interfaces, interactive experiences, and the
-        convergence of design and technology.
+        Enthusiastic and dedicated Software Engineer with professional
+        experience in both frontend development and technical support. Skilled
+        in SQL Server, responsive UI design, and solving real world problems
+        through technology. Committed to continuous improvement, teamwork, and
+        creating user-centric digital solutions.
       </>
     ),
   },
