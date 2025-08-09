@@ -28,11 +28,11 @@ const newsletter = {
 const social = [
   // Links are automatically displayed.
   // Import new icons in /once-ui/icons.ts
-  {
-    name: "GitHub",
-    icon: "github",
-    link: "https://github.com/",
-  },
+  // {
+  //   name: "GitHub",
+  //   icon: "github",
+  //   link: "https://github.com/",
+  // },
   {
     name: "LinkedIn",
     icon: "linkedin",
@@ -44,9 +44,9 @@ const social = [
     link: `mailto:${person.email}`,
   },
   {
-    name: "Phone: +92 340 0503319",
+    name: "+92 340 0503319",
     icon: "phone",
-    link: `phoneto:${person.phone}`,
+    link: `tel:${person.phone}`,
   },
 ];
 
@@ -113,7 +113,7 @@ const about = {
     experiences: [
       {
         company: "Payactiv SDSIT ",
-        timeframe: "April 2024 - Present",
+        timeframe: "May 2024 - Present",
         role: "Technical Support Engineer",
         achievements: [
           <>
@@ -143,18 +143,18 @@ const about = {
         ],
         images: [],
       },
-      {
-        company: "CodHunt",
-        timeframe: "July 2023 - August 2023",
-        role: "Frontend Developer Intern",
-        achievements: [
-          <>
-            Assisted in building websites and learning web development
-            workflows.
-          </>,
-        ],
-        images: [],
-      },
+      // {
+      //   company: "CodHunt",
+      //   timeframe: "July 2023 - August 2023",
+      //   role: "Frontend Developer Intern",
+      //   achievements: [
+      //     <>
+      //       Assisted in building websites and learning web development
+      //       workflows.
+      //     </>,
+      //   ],
+      //   images: [],
+      // },
     ],
   },
   studies: {
