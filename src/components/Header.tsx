@@ -130,7 +130,7 @@ export const Header = () => {
                   />
                 </>
               )}
-              {routes["/work"] && (
+              {/* {routes["/work"] && (
                 <>
                   <ToggleButton
                     className="s-flex-hide"
@@ -146,7 +146,7 @@ export const Header = () => {
                     selected={pathname.startsWith("/work")}
                   />
                 </>
-              )}
+              )} */}
               {/* {routes["/blog"] && (
                 <>
                   <ToggleButton
@@ -199,7 +199,7 @@ export const Header = () => {
             gap="20"
           >
             <Flex hide="s">
-              {display.time && <TimeDisplay timeZone={person.location} />}
+              {/* {display.time && <TimeDisplay timeZone={person.location} />} */}
             </Flex>
           </Flex>
         </Flex>
