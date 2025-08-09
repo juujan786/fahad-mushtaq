@@ -1,16 +1,17 @@
 import { Logo } from "@once-ui-system/core";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Fahad",
+  lastName: "Mushtaq",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
-  avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  role: "Software Engineer",
+  avatar: "/images/fahad.jpg",
+  email: "fahadmushtaq742@gmail.com",
+  phone: "+92 340 0503319",
+  location: "Pakistan", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Urdu", "Pahari"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -18,8 +19,8 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and engineering.
+      I occasionally write about design, technology, and share thoughts on the
+      intersection of creativity and engineering.
     </>
   ),
 };
@@ -30,22 +31,22 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
-  },
-  {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.com/@once_ui",
+    link: "https://www.linkedin.com/in/fahad-mushtaq-95667519b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ",
   },
   {
     name: "Email",
     icon: "email",
     link: `mailto:${person.email}`,
+  },
+  {
+    name: "Phone: +92 340 0503319",
+    icon: "phone",
+    link: `phoneto:${person.phone}`,
   },
 ];
 
@@ -55,16 +56,24 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Transforming data into seamless user experiences</>,
   featured: {
     display: true,
-    title: <>Recent project: <strong className="ml-4">Once UI</strong></>,
+    title: (
+      <>
+        Recent project: <strong className="ml-4">Once UI</strong>
+      </>
+    ),
     href: "/work/building-once-ui-a-customizable-design-system",
   },
   subline: (
     <>
-      I'm Selene, a design engineer at <Logo icon="/trademarks/wordmark-dark.svg" style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm Fahad Mushtaq, a software engineer at Payactiv, where I ensure
+      reliable, high-performance database operations and deliver responsive,
+      user-friendly digital solutions. With experience in SQL Server
+      optimization, frontend development, and cross-functional collaboration, I
+      bridge technical precision with practical problem-solving to create
+      technology that works flawlessly.
     </>
   ),
 };
@@ -90,9 +99,10 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Selene is a Jakarta-based design engineer with a passion for
+        transforming complex challenges into simple, elegant design solutions.
+        Her work spans digital interfaces, interactive experiences, and the
+        convergence of design and technology.
       </>
     ),
   },
@@ -101,41 +111,45 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Payactiv SDSIT ",
+        timeframe: "April 2024 - Present",
+        role: "Technical Support Engineer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Provided technical support for database-related issues using SQL
+            Server.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Designed and executed complex queries, handled performance
+            optimization.
           </>,
+          <>Assisted in data backup and restoration processes.</>,
+          <>Trained users in database usage and ensured high uptime.</>,
         ],
-        images: [
-          // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "CodHunt",
+        timeframe: "November 2023 - April 2024",
+        role: "Frontend Developer",
+        achievements: [
+          <>Developed and maintained interactive web applications.</>,
+          <>
+            Translated designs into responsive HTML/CSS and integrated
+            JavaScript functionalities.
+          </>,
+          <>Collaborated with teams to ensure seamless user experience.</>,
+        ],
+        images: [],
+      },
+      {
+        company: "CodHunt",
+        timeframe: "July 2023 - August 2023",
+        role: "Frontend Developer Intern",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
-          </>,
-          <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Assisted in building websites and learning web development
+            workflows.
           </>,
         ],
         images: [],
@@ -147,13 +161,13 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
+        name: "Mirpur University of Science and Technology",
         description: <>Studied software engineering.</>,
       },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
-      },
+      // {
+      //   name: "Build the Future",
+      //   description: <>Studied online marketing and personal branding.</>,
+      // },
     ],
   },
   technical: {
@@ -161,36 +175,59 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        title: "",
+        description: <>• SQL Server</>,
+        images: [],
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        title: "",
+        description: <>• Database Queries</>,
+        images: [],
+      },
+      {
+        title: "",
+        description: <>• Optimization</>,
+        images: [],
+      },
+      {
+        title: "",
+        description: <>• HTML & CSS</>,
+        images: [],
+      },
+      {
+        title: "",
+        description: <>• JavaScript</>,
+        images: [],
+      },
+      {
+        title: "",
+        description: <>• React</>,
+        images: [],
+      },
+      {
+        title: "",
+        description: <>• Documentation (LaTeX)</>,
+        images: [],
+      },
+      {
+        title: "",
+        description: <>• Manual Testing</>,
+        images: [],
+      },
+      {
+        title: "",
+        description: <>• Data Analysis</>,
+        images: [],
+      },
+      {
+        title: "",
+        description: <>• Auditing</>,
+        images: [],
+      },
+      {
+        title: "",
+        description: <>• Quality Assurance</>,
+        images: [],
       },
     ],
   },
