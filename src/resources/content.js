@@ -8,9 +8,9 @@ const person = {
   },
   role: "Software Engineer",
   avatar: "/images/fahad.jpg",
-  email: "fahadmushtaq742@gmail.com",
-  phone: "+92 340 0503319",
-  location: "Pakistan", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  email: "fahadmushtaqwork12@gmail.com",
+  phone: "+966 556 513 647",
+  location: "Riyadh, Saudi	Arabia", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Urdu", "Pahari"], // optional: Leave the array empty if you don't want to display languages
 };
 
@@ -68,7 +68,7 @@ const home = {
   },
   subline: (
     <>
-      I'm Fahad Mushtaq, a software engineer at Payactiv, where I ensure
+      I'm Fahad Mushtaq, a software engineer, I ensure
       reliable, high-performance database operations and deliver responsive,
       user-friendly digital solutions. With experience in SQL Server
       optimization, frontend development, and cross-functional collaboration, I
@@ -100,10 +100,10 @@ const about = {
     description: (
       <>
         Enthusiastic and dedicated Software Engineer with professional
-        experience in both frontend development and technical support. Skilled
-        in SQL Server, responsive UI design, and solving real world problems
-        through technology. Committed to continuous improvement, teamwork, and
-        creating user-centric digital solutions.
+        experience in SQL	Server,	SQL	query	execution,	database	troubleshooting,	
+        incident	management,	user support,	transaction	issue	resolution,	and	application	support.	
+        Skilled	at	investigating	production	issues,	analyzing database	records,	maintaining	data	accuracy,	
+        and	working	closely	with	development	and	QA	teams.	
       </>
     ),
   },
@@ -113,19 +113,36 @@ const about = {
     experiences: [
       {
         company: "Payactiv SDSIT ",
-        timeframe: "May 2024 - Present",
-        role: "Technical Support Engineer",
+        timeframe: "Apr 2024 - Oct 2025",
+        role: "Database Support Engineer",
         achievements: [
           <>
-            Provided technical support for database-related issues using SQL
-            Server.
+            Provided	production	database	support	for	enterprise	applications.
           </>,
           <>
-            Designed and executed complex queries, handled performance
-            optimization.
+            Investigated	application	issues	using	SQL	Server.
           </>,
-          <>Assisted in data backup and restoration processes.</>,
-          <>Trained users in database usage and ensured high uptime.</>,
+          <>Executed	SQL	queries	to	verify	and	troubleshoot	production	data.</>,
+          <>Analyzed	user-reported	database	issues	and	provided	timely	resolutions.</>,
+      
+          <>Assisted	in	resolving	transaction-related	issues.</>,
+      
+          <>Supported	application	login,	account	access,	and	user	management.</>,
+      
+          <>Worked	with	development	teams	to	identify	database-related	defects.</>,
+      
+          <>Validated	database	records	for	accuracy	and	consistency.</>,
+      
+          <>Performed	data	verification	before	and	after	production	updates.</>,
+      
+          <>Performed	data	verification	before	and	after	production	updates.</>,
+      
+          <>Monitored	database	performance	and	system	health. </>,
+      <>Maintained	incident	records	and	documented	issue	resolutions. </>,
+      <>Supported	daily	operational	database	activities. </>,
+      <>Escalated	critical	database	issues	whenever	required.</>,
+      <>Assisted	QA	and	business	teams	during	production	issue	investigations. </>,
+      <>Maintained	high	service	quality	while	meeting	SLA	requirements. </>,
         ],
         images: [],
       },
@@ -187,32 +204,32 @@ const about = {
       },
       {
         title: "",
-        description: <>• Optimization</>,
+        description: <>• SQL Programming</>,
         images: [],
       },
       {
         title: "",
-        description: <>• HTML & CSS</>,
+        description: <>• Java(Basic)</>,
         images: [],
       },
       {
         title: "",
-        description: <>• JavaScript</>,
+        description: <>• Operating Systems</>,
         images: [],
       },
       {
         title: "",
-        description: <>• React</>,
+        description: <>• Windows tools</>,
         images: [],
       },
       {
         title: "",
-        description: <>• Documentation (LaTeX)</>,
+        description: <>• SQL	Server	Management	Studio	(SSMS)</>,
         images: [],
       },
       {
         title: "",
-        description: <>• Manual Testing</>,
+        description: <>• Microsoft Excel</>,
         images: [],
       },
       {
@@ -227,7 +244,7 @@ const about = {
       },
       {
         title: "",
-        description: <>• Quality Assurance</>,
+        description: <>• Documentation	(Latex)</>,
         images: [],
       },
     ],
